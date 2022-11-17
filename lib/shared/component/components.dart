@@ -1,6 +1,6 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
-import 'package:news/news_app/web_view/web_view_screen.dart';
+import 'package:news/screens/web_view/web_view_screen.dart';
 
 Widget defaultButtoun({
   double width = double.infinity,

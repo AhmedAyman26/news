@@ -3,11 +3,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/cubit/states.dart';
-import 'package:news/news_app/business/business_screen.dart';
-import 'package:news/news_app/science/science_screen.dart';
-import 'package:news/news_app/sports/sports_screen.dart';
+import 'package:news/screens/business/business_screen.dart';
+import 'package:news/screens/science/science_screen.dart';
 import 'package:news/shared/network/local/cache_helper.dart';
 
+import '../screens/sports/sports_screen.dart';
 import '../shared/network/remote/dio_helper.dart';
 
 class NewsCubit extends Cubit<NewsStates> {

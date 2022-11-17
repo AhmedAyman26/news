@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/cubit/cubit.dart';
 import 'package:news/cubit/states.dart';
-import 'package:news/news_app/news_layout.dart';
+import 'package:news/screens/news_layout.dart';
 import 'package:news/shared/network/local/cache_helper.dart';
 import 'package:news/shared/styles/themes.dart';
 import 'shared/bloc_observer.dart';

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/cubit/cubit.dart';
 import 'package:news/cubit/states.dart';
-import 'package:news/news_app/search/search_screen.dart';
+import 'package:news/screens/search/search_screen.dart';
 import 'package:news/shared/component/components.dart';
 import 'package:news/shared/network/local/cache_helper.dart';
 
